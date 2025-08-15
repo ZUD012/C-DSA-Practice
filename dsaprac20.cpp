@@ -82,7 +82,7 @@ int main()
 
     //vector<int> a = {6,5,4,3,2,1};
    
-    vector<int> my = {3, 2, 1};
+    vector<int> my = {3, 2, 1 };
     nextPermutation(my);
     for (int x : my) cout << x << " ";
     return 0;

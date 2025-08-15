@@ -9,9 +9,9 @@ using namespace std;
 string reverseWords(string &s ){
     int n = s.length();
     string ans = "" ;
-    reverse(s.begin() , s.end()) ;
+    reverse(s.begin() , s.end()) ; //  Reverse each element of entire string .
 
-    for (int i = 0 ; i< n ; i++ ){
+    for (int i = 0 ; i< n ; i++ ){   // This loop helps to identify words in sentence and then reverse them to make appropriate word .
         string word = "";
         while(i < n && s[i] != ' '){
             word += s[i] ;

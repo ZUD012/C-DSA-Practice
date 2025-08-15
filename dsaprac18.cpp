@@ -3,11 +3,14 @@
 #include <iomanip>
 #include <vector>
 #include <utility>   // Used for swapping .
+
 // swap can be used with both utility and algorithm . 
 
 using namespace std;
 
 // Bubble sort -> LOOP OF N-1 ;
+// For ascending order -> 
+
 void bubble_sort(vector<int> &vec1, int n)
 {
     for (int i = 0; i < n - 1; i++)
@@ -22,13 +25,14 @@ void bubble_sort(vector<int> &vec1, int n)
             }
         }
         if (!isswap)
-        { // Array is slready sorted
+        { // Array is already sorted
             return;
         }
     }
 }
 
  // Selection sort ->
+ // Solving using 2 oppointer idea ->
     void selection_sort(vector<int> & vec1, int n)
 {
         for (int i = 0; i < n; i++)
@@ -46,6 +50,7 @@ void bubble_sort(vector<int> &vec1, int n)
 }
 
 // Insertion sort ->
+
 void insertion_sort(vector<int> & vec1, int n){
 for (int i =  1 ; i < n-1 ; i++){
   int curr = i ;

@@ -54,7 +54,7 @@ int freq[26] = {0,2,3,5,4} ;
 for (int i = 0 ; i<4 ; i++){
     int idx = s1[i] - 'a' ; // Both gets converted into ascii values . // so a-> 0 , b-> 1 , c -> 2 ... ->
     freq[idx]++ ; 
-    cout<<*freq ;
+
 }
 return 0;
 }

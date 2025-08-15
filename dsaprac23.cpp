@@ -6,6 +6,9 @@
 #include<cctype>
 using namespace std;
 
+
+// Valid palindrome ->
+
 //bool isAlphaNum(char ch){
 //    if((ch>= '0' && ch<='9') || (tolower(ch)>= 'a' && tolower(ch) <='z')){
 //        return true ; 
@@ -39,6 +42,7 @@ bool ispalindrome(string s ){
 
 
 // To remove all the occurance of string ->
+
 string removeOccurances(string s , string part){
     while(s.length() > 0 && s.find(part)<s.length()){
         s.erase(s.find(part) , part.length()) ; 

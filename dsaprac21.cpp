@@ -4,7 +4,7 @@
 #include<iomanip>
 #include<string>
 #include<cstring>
-#include<string.h>// to use strlen() function . 
+#include<string.h> // to use strlen() function . 
 using namespace std;
 
 int main(){
@@ -38,7 +38,7 @@ char a [25] ;
 
 // TO print all characters of string a ->
 //for(char ch : a){
-//    cout<< ch << " " ; 
+//cout<< ch << " " ; 
 //}
 
 // TO get length of a stence or a word in c++ ->
@@ -48,10 +48,6 @@ for (int i = 0 ; i < ex1[i] != '\0' ; i++){
 len ++ ;
 }
 cout<<"The length of string is : "<<len ;
-
-
-
-
 
 return 0;
 }

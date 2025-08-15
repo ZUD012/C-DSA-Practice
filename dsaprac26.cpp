@@ -1,9 +1,16 @@
+// String compression -->
+
 #include<iostream>
 #include<iomanip>
 #include<string>
 #include<vector>
+
+
 using namespace std;
+
+
 int compress(vector<char> &chars){
+
  int n  = chars.size() ;
  int idx = 0 ;
 
@@ -11,7 +18,8 @@ int compress(vector<char> &chars){
     char ch = chars [i] ;
     int count = 0 ; 
 
-    while(i < n && chars[i] == ch ){
+    while(i < n && chars[i] == ch )
+    {
         count++ ;
         i++ ; 
     }
