@@ -1,4 +1,5 @@
 // Finding Duplicate -->
+// Floyd’s Tortoise and Hare cycle detection algorithm
 
 #include<iostream>
 #include<iomanip>
