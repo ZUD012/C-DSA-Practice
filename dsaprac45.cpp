@@ -32,16 +32,16 @@ while(j <= end){
 for(int idx = 0 ; idx<temp.size() ; idx++){
     arr[idx+st] = temp[idx] ; 
 }
-
 }
 
 void mergesort(vector<int> &arr , int st , int end ){
     if(st < end){
         int mid = st+(end-st)/2;
-         mergesort(arr , st , mid);
-         mergesort(arr , mid+1 , end) ;
+         mergesort(arr , st , mid); // Normal call --> 
+         mergesort(arr , mid+1 , end) ; //  Recursive call -->
 
-         merge(arr , st , mid , end ) ; 
+
+         merge(arr , st , mid , end ) ; //  functionmm call --> 
     }
 
 }
